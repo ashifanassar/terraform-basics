@@ -54,3 +54,12 @@ variable "city" {
 output "fav_city" {
   value = var.city
 }
+
+
+variable "state" {
+  
+}
+
+output "fav_state" {
+  value = var.state
+}
