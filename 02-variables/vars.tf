@@ -1,4 +1,4 @@
-variable "sample" {
+variable "newvar" {
     default = "terraform"
 }
 
