@@ -45,3 +45,12 @@ output "Learning_output_map" {
     value = "Welcome to ${var.learning_map["batch"]} and it covered in ${var.learning_map["mode"]} it is covered in${var.learning_map["learning"]}"
   
 }
+
+
+variable "city" {
+  
+}
+
+output "fav_city" {
+  value = var.city
+}
