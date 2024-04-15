@@ -29,6 +29,6 @@ variable "example_list" {
 }
 
 output "printing_list" {
-    value = "welcome to the list ${var.example[0]} list with the cloud provider ${var.example[1]} in the bactch ${var.example[2]}"
+    value = "welcome to the list ${var.example_list[0]} list with the cloud provider ${var.example_list[1]} in the bactch ${var.example_list[2]}"
   
 }
