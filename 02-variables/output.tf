@@ -13,6 +13,22 @@ output "sample_output_var" {
     value = "value of sample is ${var.sample}"
 }
 
-output "batch serial" {
+output "batch_serial" {
     value = var.batch
+}
+
+#Declring the  list 
+
+variable "example_list" {
+    default = [
+        "Devops",
+        "AWS",
+        50
+    ]
+  
+}
+
+output "printing_list" {
+    value = "welcome to the list ${var.example[0]} list with the cloud provider ${var.example[1]} in the bactch ${var.example[2]}"
+  
 }
