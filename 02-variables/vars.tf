@@ -10,5 +10,5 @@ output "sample_op" {
 }
 
 output "sample_output_var" {
-    value = value of sample is var.sample
+    value = "value of sample is ${var.sample}"
 }
