@@ -8,3 +8,7 @@ variable "sample" {
 output "sample_op" {
     value = var.sample
 }
+
+output "sample_output_var" {
+    value = value of sample is var.sample
+}
