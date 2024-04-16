@@ -2,7 +2,7 @@
   # Configuration options
 }
 
-resource "aws_instance" "web" {
+resource "aws_instance" "app" {
   ami           = "ami-072983368f2a6eab5"
   instance_type = "t3.micro"
 
