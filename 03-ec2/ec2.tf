@@ -15,6 +15,6 @@ resource "aws_instance" "app" {
 #Output to displayed
 
 output "private_ip_address" {
-    value = aws_instance.web.private_ip
+    value = aws_instance.app.private_ip
   
 }
