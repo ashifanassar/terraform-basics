@@ -4,7 +4,7 @@ provider "aws" {}
 ## declaring the remote backend as s3
 terraform {
   backend "s3" {
-    bucket              = "b57-tf-state-bucket"
+    bucket              = "terraformbasicdevopsstatebucket"
     key                 = "dev/datasource/terraform.tfstate"
     region              = "us-east-1"
   }
