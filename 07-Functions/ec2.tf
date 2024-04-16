@@ -6,7 +6,7 @@ resource "aws_instance" "checker" {       # name of the resource as per terrafor
 
 
   tags = {
-    Name = "checker-instance-${count.index+1}"
+    Name = "checker-instance"
   }
 }
 
