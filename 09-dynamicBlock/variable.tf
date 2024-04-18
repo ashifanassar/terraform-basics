@@ -43,7 +43,7 @@ variable "egress_rules" {
     description     = "HTTP"
     from_port       = 0
     to_port         = 80
-    protocol        = "TCP"
+    protocol        = "HTTP"
     cidr_blocks     = ["0.0.0.0/0"]
     },
 
@@ -51,7 +51,7 @@ variable "egress_rules" {
     description     = "HTTPS"
     from_port       = 0
     to_port         = 443
-    protocol        = "TCP"
+    protocol        = "HTTPS"
     cidr_blocks     = ["0.0.0.0/0"]
     },
 
