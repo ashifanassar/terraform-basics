@@ -1,6 +1,6 @@
 data "aws_ami" "example" {
   most_recent      = true
-  name_regex       = DevOps-LabImage-Centos-8
+  name_regex       = "DevOps-LabImage-Centos-8"
   owners           = ["590183768065"]
 
 
