@@ -11,6 +11,6 @@ resource "aws_instance" "datasourcesample" {
   instance_type = var.instance_type
 
   tags = {
-    Name = "var.component"
+    Name = var.component
   }
 }
